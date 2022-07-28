@@ -21,4 +21,7 @@
          image: "wurstmeister/kafka" 
          name: zk1 
          ports:  
-           - containerPort: 2181
+         - containerPort: 2181
+         env:
+         - name: ALLOW_ANONYMOUS_LOGIN
+           value: "yes"
