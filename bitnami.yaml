@@ -15,8 +15,8 @@ spec:
   - name: leader
     port: 3888
     protocol: TCP
-  selector:
-    app: zk-1
+  #selector:
+    #app: zk-1
 ---
 kind: Deployment
 apiVersion: apps/v1
