@@ -13,4 +13,4 @@ spec:
     targetPort: 9092
     protocol: TCP
   - port: 2181 
-    targetPort: 2181r
+    targetPort: 2181
