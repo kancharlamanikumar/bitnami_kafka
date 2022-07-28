@@ -3,7 +3,7 @@ kind: Service
 metadata:  
   labels:  
     app: kafkaApp 
-    name: kafka
+  name: kafka
 spec: 
   type: LoadBalancer 
   selector:  
